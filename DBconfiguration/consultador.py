@@ -21,7 +21,7 @@ registros = cursor.fetchall()
 for fila in registros:
     print(fila) 
 
-#cerrar las conexiones
+#5 cerrar las conexiones
 cursor.close()
 conexion.close()
 
